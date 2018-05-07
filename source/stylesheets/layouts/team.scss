@@ -1,0 +1,21 @@
+.team {
+  padding-top: 120px;
+  text-align: center;
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.member {
+  display: inline-block;
+  margin: 20px;
+  .name {
+    font-size: 20px;
+    color: rgb(80,80,80);
+  }
+  .user {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(200,200,200);
+  }
+}

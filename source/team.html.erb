@@ -1,0 +1,17 @@
+<div class="team">
+  <div class="container">
+    <h1>The team</h1>
+    <div class="members">
+      <% members = [["Sam", "Jenkins", "samrjenkins"],["Sebastian", "Luksic", "sebastianluksicjames"]] %>
+      <% members.each do |member| %>
+        <div class="member">
+          <%= image_tag "#{member[0].downcase}.jpg", class: "avatar" %>
+          <div class="details">
+            <h2 class="name"><%= member[0] + " " + member[1] %></h2>
+            <a href="http://github.com/<%= member[2] %>" class="user"><i class="fa fa-github"></i><%= " " + member[2] %></a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

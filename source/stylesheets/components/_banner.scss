@@ -1,0 +1,25 @@
+.banner {
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  h1 {
+    font-family: "Varela", "Helvetica", "sans-serif";
+    font-weight: 400;
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 28px;
+    color: rgba(255,255,255,0.7)
+  }
+}
+
+.banner-content {
+  margin: auto 0;
+}
